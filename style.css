@@ -1,0 +1,188 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100vw;
+    min-height: 100vw; /* Удалить потом */
+    scrollbar-width: none;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero {
+    color: white;
+    background-image: url(img/e1e3b841982ecb3c5cb382f79b81ca00.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 65vw;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+}
+
+.hero-blur {
+    position: absolute;
+    background: linear-gradient(to bottom, rgba(34, 34, 52, 0.1), rgba(0, 0, 26, 0.9));
+    width: 100%;
+    height: 100%;
+}
+
+.hero-nav {
+    width: 70%;
+    height: 10%;
+    margin-top: 1.4rem;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 5;
+}
+.hero-nav > a {
+    color: white;
+    text-decoration: none;
+}
+.hero-nav > img {
+    margin-right: 40%;
+}
+
+.hero-text {
+    width: 70%;
+    height: 9%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 12%;
+    z-index: 5;
+}
+.hero-text-h1 {
+    font-size: 2.9rem;
+    width: 60%;
+    margin-bottom: 1.5rem;
+}
+.hero-text-p {
+    font-size: 1rem;
+    width: 53%;
+}
+
+.hero-search {
+    width: 70%;
+    z-index: 5;
+    margin-top: 10%;
+}
+.hero-search > form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 84%;
+}
+
+.circle {
+    width: 1rem;
+    height: 1rem;
+    border: white 0.1rem solid;
+    border-radius: 20rem;
+    margin-right: 1rem;
+}
+
+.hero-search-s1 {
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.hero-search-s2 {
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.hero-search-span > input {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    width: 17rem;
+    color: white;
+}
+.hero-search-span > input::placeholder {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+.hero-search-span {
+    display: flex;
+}
+
+.line {
+    width: 100%;
+    height: 0.1rem;
+    background-color: #fff;
+    margin-top: 1rem;
+}
+
+.hero-search-button {
+    width: 10rem;
+    height: 3rem;
+    font-size: 1.2rem;
+    background-color: rgb(0, 98, 255);
+    color: white;
+    border: none;
+}
+
+
+.content {
+    width: 85%;
+    height: 60rem;
+    background-color: #fff;
+    z-index: 3;
+    margin-top: 50vw;
+    /* padding: 8%; */
+}
+
+.benefits {
+    width: 100%;
+    height: 45rem;
+    box-shadow: 0 0 2rem rgba(84, 83, 83, 0.332);
+    padding: 9%;
+}
+.benefits-h1 {
+    font-size: 2.5rem;
+    color: rgb(58, 58, 58);
+}
+
+.benefits-items-container {
+    margin-top: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.benefits-item {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.benefits-item > img {
+    margin-bottom: 3rem;
+}
+.benefits-item-h1 {
+    margin-bottom: 3rem;
+}
+.benefits-item-p {
+    margin-bottom: 3rem;
+    color: rgb(70, 70, 70);
+}
+.benefits-link {
+    text-decoration: none;
+}
+
