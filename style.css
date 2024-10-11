@@ -46,8 +46,11 @@ body, html {
     z-index: 5;
 }
 .hero-nav > a {
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
+}
+.hero-nav > a:hover {
+    text-decoration: underline;
 }
 .hero-nav > img {
     margin-right: 40%;
@@ -85,11 +88,12 @@ body, html {
 }
 
 .circle {
-    width: 1rem;
-    height: 1rem;
+    width: 1.1rem;
+    height: 1.1rem;
     border: white 0.1rem solid;
     border-radius: 20rem;
     margin-right: 1rem;
+    margin-bottom: 0.2rem;
 }
 
 .hero-search-s1 {
@@ -137,8 +141,12 @@ body, html {
     background-color: rgb(0, 98, 255);
     color: white;
     border: none;
+    transition: 0.3s;
 }
 
+.hero-search-button:active {
+    transform: scale(0.8, 0.8);
+}
 
 .content {
     width: 85%;
@@ -151,7 +159,7 @@ body, html {
 
 .benefits {
     width: 100%;
-    height: 45rem;
+    height: 48rem;
     box-shadow: 0 0 2rem rgba(84, 83, 83, 0.332);
     padding: 9%;
 }
@@ -181,8 +189,15 @@ body, html {
 .benefits-item-p {
     margin-bottom: 3rem;
     color: rgb(70, 70, 70);
+    width: 90%;
 }
 .benefits-link {
     text-decoration: none;
+    color: #006DFE;
 }
+.benefits-link > span {
+    margin-right: 1rem;;
+}
+
+
 
